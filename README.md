@@ -4,7 +4,7 @@ micro-ROS firmware project for STM32G474RE using STM32CubeMX, FreeRTOS and a Mak
 
 ## Project structure
 
-- `STM32_G474RE_MicroROS/`: firmware sources, linker script and Makefile
+- Repository root: firmware sources, linker script and Makefile (`Core/`, `Drivers/`, `Middlewares/`, `Makefile`)
 - `.gitignore`: excludes generated build artifacts
 
 ## Prerequisites
@@ -17,17 +17,15 @@ micro-ROS firmware project for STM32G474RE using STM32CubeMX, FreeRTOS and a Mak
 ## Build
 
 ```bash
-cd STM32_G474RE_MicroROS
 make clean
 make -j$(nproc)
 ```
 
-Build outputs are generated in `STM32_G474RE_MicroROS/build/`.
+Build outputs are generated in `build/`.
 
 ## Flash (ST-LINK)
 
 ```bash
-cd STM32_G474RE_MicroROS
 st-flash --reset write build/STM32_G474RE_MicroROS.bin 0x08000000
 ```
 
@@ -46,7 +44,7 @@ Adjust `/dev/ttyACM0` and baudrate to your setup.
 
 This repository is configured for:
 
-- `origin`: `https://github.com/Elias-m-S/STM32_G474RE_MicroROS.git`
+- `origin`: `https://github.com/Elias-m-S/microROS_STM32_G474RE.git`
 
 Push current state with:
 
