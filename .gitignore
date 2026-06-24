@@ -1,0 +1,21 @@
+# STM32 / GCC build outputs
+STM32_G474RE_MicroROS/build/
+STM32_G474RE_MicroROS/**/*.elf
+STM32_G474RE_MicroROS/**/*.hex
+STM32_G474RE_MicroROS/**/*.bin
+STM32_G474RE_MicroROS/**/*.map
+STM32_G474RE_MicroROS/**/*.lst
+STM32_G474RE_MicroROS/**/*.d
+
+# Optional temporary outputs
+STM32_G474RE_MicroROS/**/*.su
+STM32_G474RE_MicroROS/**/*.tmp
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
