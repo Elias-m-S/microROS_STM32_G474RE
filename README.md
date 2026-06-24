@@ -28,7 +28,7 @@ Build outputs are generated in `STM32_G474RE_MicroROS/build/`.
 
 ```bash
 cd STM32_G474RE_MicroROS
-st-flash --reset write build/microROS.bin 0x08000000
+st-flash --reset write build/STM32_G474RE_MicroROS.bin 0x08000000
 ```
 
 ## Start micro-ROS Agent with Docker
