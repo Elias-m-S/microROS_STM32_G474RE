@@ -33,7 +33,7 @@ Build outputs land in `build/`:  `microROS.elf` / `.hex` / `.bin`
 ## Flash
 
 ```bash
-st-flash write build/microROS.bin 0x08000000
+st-flash write build/STM32_G474RE_MicroROS.bin 0x08000000
 ```
 
 Expected output on success:
